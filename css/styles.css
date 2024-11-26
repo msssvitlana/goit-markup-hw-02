@@ -101,7 +101,7 @@ a {
         text-align: center;
         color: #2e2f42;
   }
-  .specialist-photo {
+  .specalist-item {
     background-color: #FFFFFF;
   }
   .specialist-name {
@@ -121,7 +121,7 @@ a {
   } 
   .application {
     font-weight: 700;
-    text-transform: capitalize
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
