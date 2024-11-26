@@ -55,7 +55,7 @@ a {
   .main-page-name {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -66,14 +66,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     cursor: pointer;
   }
 
  .main-page-btn:hover,
  .main-page-btn:focus{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
  }
 
@@ -91,16 +89,20 @@ a {
         color: #434455;
 }
  
-  .specalists {
+  .specialists {
     background-color: #f4f4fd;
   }
   .specalist-team{
+    text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+  }
+  .specialist-photo {
+    background-color: #FFFFFF;
   }
   .specialist-name {
     font-weight: 500;
@@ -118,9 +120,10 @@ a {
         color: #434455;
   } 
   .application {
-font-weight: 700;
+    font-weight: 700;
+    text-transform: capitalize
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
